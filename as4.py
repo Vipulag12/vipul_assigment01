@@ -1,9 +1,16 @@
-#Python script to calculate the volume of a Cuboid
+#Python script to find greatest among three numbers
 
-L = float(input(" Enter your number : "))
-B = float(input(" Enter your number : "))
-H = float(input(" Enter your number : "))
+num1 = float(input("Enter your number : "))
+num2 = float(input("Enter your number : "))
+num3 = float(input("Enter your number : "))
 
-VOC = L* B* H  #formula
+if (num1>num2) and (num1>num3):
+    print("the greater number is", num1)
 
-print("Volume of cuboid of given no. is" , VOC )
+elif (num2>num1) and (num2>num3):
+    print("the greater number is", num2)
+
+else:
+    print("the greater number is", num3)    
+
+

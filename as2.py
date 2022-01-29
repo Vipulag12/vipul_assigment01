@@ -1,5 +1,9 @@
-#Python script to calculate the area of a circle
-r = float(input("Enter your radius : "))
-PI = 3.14
-area = PI*r*r
-print( " Area Of a Circle", area)
+#Python Program to check divisibility of a number by 5
+
+Num = int(input("Enter your number : "))
+
+if Num % 5==0 :
+    print("Number is divisible by 5")
+
+else:
+    print("Number is not divisible by 5")    

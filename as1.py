@@ -1,6 +1,10 @@
-#Python Script to add two numbers.
+#Python script to calculate the area of a circle
 
-num1 = int(input("Enter your 1st no : "))
-num2 = int(input("Enter your 2nd no : "))
-sum = num1 + num2
-print("Total of two number is" , sum)
+
+Num = int(input(" Enter your No : "))
+
+if Num%2 ==0:
+    print("Even")
+
+else:
+    print("Odd")
